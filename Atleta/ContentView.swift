@@ -35,7 +35,7 @@ struct ContentView: View {
                     }
                 }
             }
-        }
+        }.padding().background(Color.black)
         .onAppear {
             gameCenterManager.authenticateUser()
         }

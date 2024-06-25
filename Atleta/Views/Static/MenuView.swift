@@ -24,18 +24,6 @@ struct MenuView: View {
                 .cornerRadius(15)
                 .shadow(color: .gray, radius: 5, x: 0, y: 5)
             Spacer()
-            Button(action: {
-                print("High Scores")
-            }) {
-                Text("High Scores")
-            }.font(.headline)
-                .foregroundColor(.white)
-                .padding()
-                .frame(width: 150, height: 50)
-                .background(Color.blue)
-                .cornerRadius(15)
-                .shadow(color: .gray, radius: 5, x: 0, y: 5)
-            Spacer()
         }
     }
 }
