@@ -15,6 +15,8 @@
 		6175DE202C2A8DBD00BEBB5F /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6175DE1F2C2A8DBD00BEBB5F /* MenuView.swift */; };
 		6175DE232C2A8F0000BEBB5F /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6175DE222C2A8F0000BEBB5F /* GameManager.swift */; };
 		6175DE272C2A919E00BEBB5F /* SpinningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6175DE262C2A919E00BEBB5F /* SpinningView.swift */; };
+		619C9DD22C2A9CB5003A2C3C /* LeaderboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619C9DD12C2A9CB5003A2C3C /* LeaderboardView.swift */; };
+		619C9DD52C2A9CE3003A2C3C /* MatchupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619C9DD42C2A9CE3003A2C3C /* MatchupView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		6175DE222C2A8F0000BEBB5F /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
 		6175DE242C2A90FA00BEBB5F /* Atleta.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Atleta.entitlements; sourceTree = "<group>"; };
 		6175DE262C2A919E00BEBB5F /* SpinningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinningView.swift; sourceTree = "<group>"; };
+		619C9DD12C2A9CB5003A2C3C /* LeaderboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardView.swift; sourceTree = "<group>"; };
+		619C9DD42C2A9CE3003A2C3C /* MatchupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchupView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,8 @@
 		6175DE1C2C2A8D4900BEBB5F /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				619C9DD32C2A9CD1003A2C3C /* Matchups */,
+				619C9DD02C2A9CA5003A2C3C /* Leaderboards */,
 				6175DE252C2A918F00BEBB5F /* Static */,
 			);
 			path = Views;
@@ -103,6 +109,22 @@
 				6175DE262C2A919E00BEBB5F /* SpinningView.swift */,
 			);
 			path = Static;
+			sourceTree = "<group>";
+		};
+		619C9DD02C2A9CA5003A2C3C /* Leaderboards */ = {
+			isa = PBXGroup;
+			children = (
+				619C9DD12C2A9CB5003A2C3C /* LeaderboardView.swift */,
+			);
+			path = Leaderboards;
+			sourceTree = "<group>";
+		};
+		619C9DD32C2A9CD1003A2C3C /* Matchups */ = {
+			isa = PBXGroup;
+			children = (
+				619C9DD42C2A9CE3003A2C3C /* MatchupView.swift */,
+			);
+			path = Matchups;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,8 +198,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6175DE112C2A8D1600BEBB5F /* ContentView.swift in Sources */,
+				619C9DD52C2A9CE3003A2C3C /* MatchupView.swift in Sources */,
 				6175DE202C2A8DBD00BEBB5F /* MenuView.swift in Sources */,
 				6175DE272C2A919E00BEBB5F /* SpinningView.swift in Sources */,
+				619C9DD22C2A9CB5003A2C3C /* LeaderboardView.swift in Sources */,
 				6175DE0F2C2A8D1600BEBB5F /* AtletaApp.swift in Sources */,
 				6175DE1E2C2A8D5A00BEBB5F /* TitleView.swift in Sources */,
 				6175DE232C2A8F0000BEBB5F /* GameManager.swift in Sources */,

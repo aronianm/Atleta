@@ -14,6 +14,7 @@ struct ContentView: View {
         VStack {
             if gameCenterManager.isAuthenticated {
                 TitleView()
+
                 MenuView()
             } else {
                 if gameCenterManager.isLoading {
